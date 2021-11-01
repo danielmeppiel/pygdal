@@ -13,7 +13,7 @@ steps:
 
 # Store the image in Container Registry
 images:
-  - 'gcr.io/$PROJECT_ID/pygdal:$SHORT_SHA'
-  - 'gcr.io/$PROJECT_ID/pygdal:latest'
+  - 'europe-west6-docker.pkg.dev/$PROJECT_ID/ohd-repo/pygdal:$SHORT_SHA'
+  - 'europe-west6-docker.pkg.dev/$PROJECT_ID/ohd-repo/pygdal:latest'
 
 timeout: 1500s
