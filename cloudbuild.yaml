@@ -9,6 +9,7 @@ steps:
   - 'gcr.io/$PROJECT_ID/pygdal:$SHORT_SHA'
   - '-t'
   - 'gcr.io/$PROJECT_ID/pygdal:latest'
+  - '.'
 
 # Store the image in Container Registry
 images:
